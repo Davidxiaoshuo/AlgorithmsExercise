@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		F579D68C26802FFF00C18C7E /* DynamicProgramming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DynamicProgramming.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F5A2D63B268173610012531D /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5EC16EA23C41AC1005B13B9 /* AlgorithmsExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmsExercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EC16ED23C41AC1005B13B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F5EC16F423C41C70005B13B9 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 				F5EC16F423C41C70005B13B9 /* TwoSum.swift */,
 				F5FA7D2F2678BBD400E9B8D9 /* TowSum.playground */,
 				F579D68C26802FFF00C18C7E /* DynamicProgramming.playground */,
+				F5A2D63B268173610012531D /* LinkedList.playground */,
 			);
 			path = AlgorithmsExercise;
 			sourceTree = "<group>";
