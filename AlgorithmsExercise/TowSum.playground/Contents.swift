@@ -136,14 +136,14 @@ class TwoSumDataStructure {
     }
     
     func hashFind(_ value: Int) -> Bool {
-        for (_, mapValue) in hashtable.enumerated() {
-            let diffValue = value - mapValue.key
-            if diffValue != mapValue.key {
+        for (mapValue, times) in hashtable {
+            let diffValue = value - mapValue
+            if diffValue != mapValue {
                 if hashtable.keys.contains(diffValue) {
                     return true
                 }
             } else {
-                if mapValue.value > 1 {
+                if times > 1 {
                     return true
                 }
             }
