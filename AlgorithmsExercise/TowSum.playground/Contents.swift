@@ -190,8 +190,6 @@ let resultValue2 = dataStructure.hashFind(7)
 print("result value ==> \(resultValue)")
 print("result value2 ==> \(resultValue2)")
 
-
-
 let numbsers = [5,25,75]
 let target = 100
 
