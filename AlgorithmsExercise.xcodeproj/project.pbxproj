@@ -31,6 +31,8 @@
 		F5C6CD8A2685AF6600D3FB63 /* MergeLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergeLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5C6CD8B2685D9E800D3FB63 /* ArrayFindKthLargest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArrayFindKthLargest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5C6CD8C26870A3900D3FB63 /* ThreeNums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThreeNums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F5C6CD95268B54E900D3FB63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = AlgorithmsExercise/README.md; sourceTree = "<group>"; };
+		F5C6CD96268B615E00D3FB63 /* TwoSumLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TwoSumLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5EC16EA23C41AC1005B13B9 /* AlgorithmsExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmsExercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EC16ED23C41AC1005B13B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F5EC16F423C41C70005B13B9 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				F5EC16EC23C41AC1005B13B9 /* AlgorithmsExercise */,
+				F5C6CD95268B54E900D3FB63 /* README.md */,
 				F5EC16EB23C41AC1005B13B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +80,7 @@
 				F5510036268417C9009C25FE /* IntersectionLinkedList.playground */,
 				F5C6CD8A2685AF6600D3FB63 /* MergeLinkedList.playground */,
 				F5C6CD8B2685D9E800D3FB63 /* ArrayFindKthLargest.playground */,
+				F5C6CD96268B615E00D3FB63 /* TwoSumLinkedList.playground */,
 			);
 			path = AlgorithmsExercise;
 			sourceTree = "<group>";
