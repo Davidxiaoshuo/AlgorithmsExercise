@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F5EC16EE23C41AC1005B13B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EC16ED23C41AC1005B13B9 /* main.swift */; };
-		F5EC16F523C41C70005B13B9 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EC16F423C41C70005B13B9 /* TwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,7 +34,6 @@
 		F5C6CD96268B615E00D3FB63 /* TwoSumLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TwoSumLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5EC16EA23C41AC1005B13B9 /* AlgorithmsExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmsExercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EC16ED23C41AC1005B13B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		F5EC16F423C41C70005B13B9 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		F5FA7D2F2678BBD400E9B8D9 /* TowSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TowSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -50,6 +48,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F571AA35268D5DEA00444B90 /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2D63B268173610012531D /* LinkedList.playground */,
+				F551003526836097009C25FE /* LinkedListGroup.playground */,
+				F5510036268417C9009C25FE /* IntersectionLinkedList.playground */,
+				F5C6CD8A2685AF6600D3FB63 /* MergeLinkedList.playground */,
+				F5C6CD96268B615E00D3FB63 /* TwoSumLinkedList.playground */,
+			);
+			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		F571AA36268D5E8A00444B90 /* ArraySum */ = {
+			isa = PBXGroup;
+			children = (
+				F5FA7D2F2678BBD400E9B8D9 /* TowSum.playground */,
+				F5C6CD8C26870A3900D3FB63 /* ThreeNums.playground */,
+			);
+			path = ArraySum;
+			sourceTree = "<group>";
+		};
+		F571AA37268D688C00444B90 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				F5C6CD8B2685D9E800D3FB63 /* ArrayFindKthLargest.playground */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
 		F5EC16E123C41AC1005B13B9 = {
 			isa = PBXGroup;
 			children = (
@@ -70,17 +97,11 @@
 		F5EC16EC23C41AC1005B13B9 /* AlgorithmsExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F571AA36268D5E8A00444B90 /* ArraySum */,
+				F571AA35268D5DEA00444B90 /* LinkedList */,
+				F571AA37268D688C00444B90 /* Sort */,
 				F5EC16ED23C41AC1005B13B9 /* main.swift */,
-				F5EC16F423C41C70005B13B9 /* TwoSum.swift */,
-				F5FA7D2F2678BBD400E9B8D9 /* TowSum.playground */,
-				F5C6CD8C26870A3900D3FB63 /* ThreeNums.playground */,
 				F579D68C26802FFF00C18C7E /* DynamicProgramming.playground */,
-				F5A2D63B268173610012531D /* LinkedList.playground */,
-				F551003526836097009C25FE /* LinkedListGroup.playground */,
-				F5510036268417C9009C25FE /* IntersectionLinkedList.playground */,
-				F5C6CD8A2685AF6600D3FB63 /* MergeLinkedList.playground */,
-				F5C6CD8B2685D9E800D3FB63 /* ArrayFindKthLargest.playground */,
-				F5C6CD96268B615E00D3FB63 /* TwoSumLinkedList.playground */,
 			);
 			path = AlgorithmsExercise;
 			sourceTree = "<group>";
@@ -143,7 +164,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5EC16F523C41C70005B13B9 /* TwoSum.swift in Sources */,
 				F5EC16EE23C41AC1005B13B9 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

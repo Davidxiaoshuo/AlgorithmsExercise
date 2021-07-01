@@ -8,6 +8,3 @@
 
 import Foundation
 
-let twoSum = TwoSum()
-twoSum.printTwoSumResult([2, 7, 11, 15], 9)
-
