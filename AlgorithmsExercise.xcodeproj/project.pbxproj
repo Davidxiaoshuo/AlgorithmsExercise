@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		F551003526836097009C25FE /* LinkedListGroup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedListGroup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5510036268417C9009C25FE /* IntersectionLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IntersectionLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F571AA39268D706800444B90 /* BinaryTreeZigzagLevelOrder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTreeZigzagLevelOrder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F571AA3A268DD4B500444B90 /* BinaryTreeLevelOrderTraversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTreeLevelOrderTraversal.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F579D68C26802FFF00C18C7E /* DynamicProgramming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DynamicProgramming.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5A2D63B268173610012531D /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5C6CD8A2685AF6600D3FB63 /* MergeLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergeLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -77,6 +79,15 @@
 			path = Sort;
 			sourceTree = "<group>";
 		};
+		F571AA38268D702C00444B90 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				F571AA3A268DD4B500444B90 /* BinaryTreeLevelOrderTraversal.playground */,
+				F571AA39268D706800444B90 /* BinaryTreeZigzagLevelOrder.playground */,
+			);
+			path = BinaryTree;
+			sourceTree = "<group>";
+		};
 		F5EC16E123C41AC1005B13B9 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +108,7 @@
 		F5EC16EC23C41AC1005B13B9 /* AlgorithmsExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F571AA38268D702C00444B90 /* BinaryTree */,
 				F571AA36268D5E8A00444B90 /* ArraySum */,
 				F571AA35268D5DEA00444B90 /* LinkedList */,
 				F571AA37268D688C00444B90 /* Sort */,

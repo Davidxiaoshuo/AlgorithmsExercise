@@ -37,6 +37,48 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>BinaryTreeLevelOrderTraversal (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>80</integer>
+		</dict>
+		<key>BinaryTreeLevelOrderTraversal (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>81</integer>
+		</dict>
+		<key>BinaryTreeLevelOrderTraversal (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
+		<key>BinaryTreeZigzagLevelOrder (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>77</integer>
+		</dict>
+		<key>BinaryTreeZigzagLevelOrder (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>78</integer>
+		</dict>
+		<key>BinaryTreeZigzagLevelOrder (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
 		<key>DynamicProgramming (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
