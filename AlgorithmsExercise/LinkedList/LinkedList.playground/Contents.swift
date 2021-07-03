@@ -72,12 +72,16 @@ func generateLinkedList(by input: [Int]) -> ListNode? {
     return head
 }
 
-let inputCondition = [1, 2, 3, 4, 5]
-
-if let linkedList = generateLinkedList(by: inputCondition) {
-    var newList = reverseListRecursion(linkedList)
-    while nil != newList {
-        print(newList?.value ?? "nil")
-        newList = newList?.next
+func print(listNode: ListNode?) {
+    guard let node = listNode else { return }
+    var tempNode: ListNode? = node
+    while nil != tempNode {
+        print(tempNode?.value ?? "nil")
+        tempNode = tempNode?.next
     }
 }
+
+let input = [1, 2, 3, 4, 5]
+let listNode = generateLinkedList(by: input)
+let newListNode = reverseListRecursion(listNode)
+print(listNode: newListNode)
