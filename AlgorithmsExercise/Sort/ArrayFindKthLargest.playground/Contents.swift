@@ -54,7 +54,7 @@ func insertionSort(nums: inout [Int]) {
 }
 
 
-/// MARK: - 快速排序
+/// MARK: - 快速排序, 效率较低
 private func partition(nums: inout [Int], left: Int, right: Int) -> Int{
     // 找出分界值，通常取数组末尾一位
     let pivot = nums[right]
@@ -80,6 +80,24 @@ func quickSort(nums: inout [Int]) {
     quickSort(nums: &nums, left: 0, right: nums.count - 1)
 }
 
+extension Array {
+    var decompose : (head: Element, tail: [Element])? {
+        return (count > 0) ? (self[0], Array(self[1..<count])) : nil
+    }
+}
+
+func quickSort(input: [Int]) -> [Int] {
+    if let (pivot, rest) = input.decompose {
+        let lesser = rest.filter { $0 < pivot }
+        let greater = rest.filter { $0 >= pivot }
+        let a = quickSort(input: lesser) + [pivot]
+        let b = a + quickSort(input: greater)
+        return b
+    } else {
+        return []
+    }
+}
+
 
 /// MARK: - 输出
 
@@ -95,5 +113,5 @@ insertionSort(nums: &insertionNums)
 print("insertion sort nums => \(insertionNums)")
 
 var quickNums =  [3,2,3,1,2,4,5,5,6]
-quickSort(nums: &quickNums)
+quickNums = quickSort(input: quickNums)
 print("quick sort nums => \(quickNums)")
