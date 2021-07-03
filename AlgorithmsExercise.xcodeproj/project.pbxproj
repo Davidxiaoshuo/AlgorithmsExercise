@@ -27,6 +27,7 @@
 		F5510036268417C9009C25FE /* IntersectionLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = IntersectionLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F571AA39268D706800444B90 /* BinaryTreeZigzagLevelOrder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTreeZigzagLevelOrder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F571AA3A268DD4B500444B90 /* BinaryTreeLevelOrderTraversal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTreeLevelOrderTraversal.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F571AA3B26904DE300444B90 /* BinaryTreeLowestCommonAncestor.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTreeLowestCommonAncestor.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F579D68C26802FFF00C18C7E /* DynamicProgramming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DynamicProgramming.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5A2D63B268173610012531D /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5C6CD8A2685AF6600D3FB63 /* MergeLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergeLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -84,6 +85,7 @@
 			children = (
 				F571AA3A268DD4B500444B90 /* BinaryTreeLevelOrderTraversal.playground */,
 				F571AA39268D706800444B90 /* BinaryTreeZigzagLevelOrder.playground */,
+				F571AA3B26904DE300444B90 /* BinaryTreeLowestCommonAncestor.playground */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";

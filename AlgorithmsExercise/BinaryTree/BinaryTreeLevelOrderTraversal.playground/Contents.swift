@@ -43,6 +43,15 @@ class TreeNode {
     }
 }
 
+private func createTree(byIntArray nums: inout [Int?], root: inout TreeNode?) {
+    guard !nums.isEmpty else { return }
+    if let first = nums.removeFirst() {
+        root = TreeNode(value: first)
+        
+        createTree(byIntArray: &nums, root: &root!.left)
+        createTree(byIntArray: &nums, root: &root!.right)
+    }
+}
 
 /// 按层遍历，每一层所有节点，组成一个 array 返回
 /// - Parameter root: 根节点
@@ -74,6 +83,12 @@ func levelOrder(_ root: TreeNode?) -> [[Int]] {
     
     return result
 }
+
+var nums = [3, 9, 20, nil, nil, 15, 7]
+var tree: TreeNode?
+createTree(byIntArray: &nums, root: &tree)
+
+
 
 /**
  题解：
