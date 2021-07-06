@@ -34,7 +34,7 @@
 		F5A2D63B268173610012531D /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5C6CD8A2685AF6600D3FB63 /* MergeLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MergeLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5C6CD8B2685D9E800D3FB63 /* ArrayFindKthLargest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ArrayFindKthLargest.playground; path = AlgorithmsExercise/Sort/ArrayFindKthLargest.playground; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		F5C6CD8C26870A3900D3FB63 /* ThreeNums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThreeNums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F5C6CD8C26870A3900D3FB63 /* ThreeSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThreeSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5C6CD95268B54E900D3FB63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = AlgorithmsExercise/README.md; sourceTree = "<group>"; };
 		F5C6CD96268B615E00D3FB63 /* TwoSumLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TwoSumLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5DE88F72692B31D00343E48 /* BinaryTreeTraversalIterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTreeTraversalIterator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -73,7 +73,7 @@
 				F5FA7D2F2678BBD400E9B8D9 /* TowSum.playground */,
 				F571AA3C2690713500444B90 /* TwoSumSort.playground */,
 				F571AA3D26907D3400444B90 /* TwoSumDataStructure.playground */,
-				F5C6CD8C26870A3900D3FB63 /* ThreeNums.playground */,
+				F5C6CD8C26870A3900D3FB63 /* ThreeSum.playground */,
 			);
 			path = ArraySum;
 			sourceTree = "<group>";
