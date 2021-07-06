@@ -1,5 +1,6 @@
 import Cocoa
 
+/// https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
 /// 给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
 /// k 是一个正整数，它的值小于或等于链表的长度。
 /// 如果节点总数不是 k 的整数倍，那么请将最后剩余的节点保持原有顺序。
@@ -86,19 +87,23 @@ func reverseKTop(_ head: ListNode?, _ k: Int) -> ListNode? {
     return preNode
 }
 
-let listNode = generateSerialListNode(5)
-var tempNode: ListNode? = listNode
-while nil != tempNode {
-    print("list node value = \(tempNode?.value ?? -1)")
-    tempNode = tempNode?.next
+func print(listNode: ListNode?, prefix prefixStr: String = "") {
+    guard let root = listNode else { return }
+    var tempNode: ListNode? = root
+    while nil != tempNode {
+        let content: String = prefixStr.isEmpty ?
+            prefixStr + " ==> " + "\(tempNode?.value ?? -1)" :
+            "\(tempNode?.value ?? -1)"
+        print(content)
+        tempNode = tempNode?.next
+    }
 }
 
+let listNode = generateSerialListNode(5)
+print(listNode: listNode, prefix: "before list node")
+
 let reversedList = reverseKGroup(listNode, 3)
-var tempReversedList: ListNode? = reversedList
-while nil != tempReversedList {
-    print("list node value = \(tempReversedList?.value ?? -1)")
-    tempReversedList = tempReversedList?.next
-}
+print(listNode: reversedList, prefix: "after list node")
 
 
 /// 总结：① 将整体拆分成小步骤
