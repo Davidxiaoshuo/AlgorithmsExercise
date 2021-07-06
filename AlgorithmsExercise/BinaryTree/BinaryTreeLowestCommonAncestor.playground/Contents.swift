@@ -111,6 +111,6 @@ let nodes = createTree()
 let commontParentAncestor = lowestCommonAncestor(nodes.root, nodes.pNode, nodes.qNode)
 print(commontParentAncestor?.value ?? -1)
 
-/// 题解：1. 从根节点开始遍历整棵二叉树，用哈希表记录每个节点的父节点指针。这里采用 BFS，深度优先遍历。
+/// 题解：1. 从根节点开始遍历整棵二叉树，用哈希表记录每个节点的父节点指针。这里采用 DFS，深度优先遍历。
 /// 2. 从 p 节点开始不断往它的祖先移动，并用数据结构记录已经访问过的祖先节点。
 /// 3. 同样，我们再从 q 节点开始不断往它的祖先移动，如果有祖先已经被访问过，即意味着这是 p 和 q 的深度最深的公共祖先，即 LCA 节点。
