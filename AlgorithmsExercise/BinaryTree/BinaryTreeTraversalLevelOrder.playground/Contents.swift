@@ -66,7 +66,7 @@ func levelOrder(_ root: TreeNode?) -> [[Int]] {
     while queue.count > 0 {
         var currLevelNodes: [Int] = []
         
-        for _ in 0..<queue.count {
+        for _ in 0..<queue.count { // 每一层的节点数，将整个一层遍历出来
             let currTree = queue.removeFirst()
             currLevelNodes.append(currTree.value)
             
@@ -92,6 +92,7 @@ createTree(byIntArray: &nums, root: &tree)
 
 /**
  题解：
+ https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/bfs-de-shi-yong-chang-jing-zong-jie-ceng-xu-bian-l/
  1. 注意此题是需要把，每一个层级所有节点组成一个数组。不是按每个节点下的子节点分组
  2. 时间复杂度：每个点进队出队各一次，故渐进时间复杂度为 O(n)；空间复杂度：队列中元素的个数不超过 n 个，故渐进空间复杂度为  O(n)
  3. 遍历方法，BFS「Breadth First Search」宽度优先搜索
