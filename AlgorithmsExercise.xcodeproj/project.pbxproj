@@ -39,6 +39,7 @@
 		F5C6CD96268B615E00D3FB63 /* TwoSumLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TwoSumLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5DE88F72692B31D00343E48 /* BinaryTreeTraversalIterator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTreeTraversalIterator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5DE88F82693E5B400343E48 /* BinaryTreeTraversalReversion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BinaryTreeTraversalReversion.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F5DE88FA2695542000343E48 /* StringLongestSubstring.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = StringLongestSubstring.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F5EC16EA23C41AC1005B13B9 /* AlgorithmsExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmsExercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EC16ED23C41AC1005B13B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F5FA7D2F2678BBD400E9B8D9 /* TowSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TowSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -98,6 +99,14 @@
 			path = BinaryTree;
 			sourceTree = "<group>";
 		};
+		F5DE88F9269553EB00343E48 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE88FA2695542000343E48 /* StringLongestSubstring.playground */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
 		F5EC16E123C41AC1005B13B9 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +127,7 @@
 		F5EC16EC23C41AC1005B13B9 /* AlgorithmsExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F5DE88F9269553EB00343E48 /* Strings */,
 				F571AA38268D702C00444B90 /* BinaryTree */,
 				F571AA36268D5E8A00444B90 /* ArraySum */,
 				F571AA35268D5DEA00444B90 /* LinkedList */,
